@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: edu.csupomona.cs.iphoto.WebControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.613 sec <<< FAILURE! - in edu.csupomona.cs.iphoto.WebControllerIntegrationTest
+testGetFilteredPhoto(edu.csupomona.cs.iphoto.WebControllerIntegrationTest)  Time elapsed: 2.344 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<image/jpeg> but was:<application/json;charset=UTF-8>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.csupomona.cs.iphoto.WebControllerIntegrationTest.testGetFilteredPhoto(WebControllerIntegrationTest.java:168)
+
+testAddNewPhoto(edu.csupomona.cs.iphoto.WebControllerIntegrationTest)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.csupomona.cs.iphoto.WebControllerIntegrationTest.testAddNewPhoto(WebControllerIntegrationTest.java:98)
+
